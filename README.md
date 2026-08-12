@@ -38,7 +38,7 @@ Used both `for` and `while` loops to automate repetitive tasks, iterate through 
 <img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
 
 The 'int(input' function is used so that Python can be given a number that can be stored and worked with as a whole number. 
-Without the 'int' section of the code 
+Without the 'int' section of the code the function is simply looked at as a code, instead of being used as a number to calculate with. 
 
 
 ## Key Features
