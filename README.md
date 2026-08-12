@@ -15,6 +15,8 @@ This project was completed as part of a Data Technician Bootcamp and demonstrate
 
 ### Variables
 Used variables to store and manage data such as user inputs, numbers, balances, and calculated values throughout the program.
+In simple terms, a variable is just a named place to store information. Such as 'age = 15 
+                                                                                 print(age)'
 
 ### Input and Output
 Utilised the `input()` function to collect information from users and the `print()` function to display prompts, results, and feedback, creating an interactive command-line experience.
