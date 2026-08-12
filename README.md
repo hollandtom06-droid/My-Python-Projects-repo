@@ -37,6 +37,9 @@ Used both `for` and `while` loops to automate repetitive tasks, iterate through 
 <img width="401" height="76" alt="image" src="https://github.com/user-attachments/assets/4678cadf-d92e-4a0c-87ef-3372b8b8ea03" />
 <img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
 
+The 'int(input' function is used so that Python can be given a number that can be stored and worked with as a whole number. 
+Without the 'int' section of the code 
+
 
 ## Key Features
 
