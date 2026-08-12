@@ -97,29 +97,31 @@ if age >= 18:
     print("You are an adult")
 ```
 
-**Purpose:** Runs the code when the condition is true.
-
 ### `else`
 
+```python
 age = 10
 
 if age >= 18:
     print("Adult")
 else:
     print("Not an adult")
+```
 
-**Purpose: Runs when the if condition is not true.
+**Purpose:** Runs when the `if` condition is not true.
 
-###'elif'
+### `elif`
 
+```python
 age = 15
 
 if age >= 18:
     print("Adult")
 elif age >= 13:
     print("Teenager")
+```
 
-**Purpose: Checks another condition if the first condition is not true.
+**Purpose:** Checks another condition if the first condition is not true.
 
 ---
 
