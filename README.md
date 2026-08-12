@@ -45,6 +45,13 @@ The 'else' function is usually included to check further inputs within the code 
                                                                                                                                    if age >= 18: print('Adult')
                                                                                                                                    else: print('Not an Adult') 
 
+<img width="264" height="81" alt="image" src="https://github.com/user-attachments/assets/b2bd6dc7-ce5c-4458-bf29-ab3eadb2745c" />
+<img width="189" height="117" alt="image" src="https://github.com/user-attachments/assets/a770afbb-f5a9-45b1-940c-9b5b7f21b5a3" />
+<img width="239" height="129" alt="image" src="https://github.com/user-attachments/assets/faf076f4-69d7-4f3f-800a-62da9a52bcf1" />
+
+
+
+
 ### Loops
 Used both `for` and `while` loops to automate repetitive tasks, iterate through sequences of data, and keep programs running until specific conditions were met.
 
