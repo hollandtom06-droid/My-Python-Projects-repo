@@ -25,6 +25,11 @@ Applied type casting techniques such as `int()` and `float()` to convert user in
 ### Conditional Statements
 Implemented `if`, `elif`, and `else` statements to control program flow, validate user choices, and make decisions based on different conditions and scenarios.
 
+An 'if' function is used if the user is wanting the program to do something if the input is true. For example 'if age >= 18: print("You can Vote")' this would then print 'You can vote' as the function would be true. 
+A 'elif' function is similar but has an extra rule within it. The 'elif' function will check the to see if the first section is true, and if not it will then check the next condition/section within the function. For example - 'if age >= 18: print('Adult') 
+           elif age >= 13: print('Teenager')
+This code is an example of how the elif function is used to check more than one condition. 
+
 ### Loops
 Used both `for` and `while` loops to automate repetitive tasks, iterate through sequences of data, and keep programs running until specific conditions were met.
 
