@@ -1,110 +1,253 @@
-# My-Python-Projects-repo
-
-#Google Colab Notebook
-
-[Open in Google Collab] https://colab.research.google.com/drive/1KeBgkUtZXz8Nb5Vd8lcj_rAl4iX7284e?usp=sharing
-
-[Open in Google Collab] https://colab.research.google.com/drive/1tCO3PEViCeHzVvJhI-CKuy7Ed_K3bntY?usp=sharing
-
-# Python Fundamentals Project
+# Python Projects Portfolio
 
 ## Overview
-This project was completed as part of a Data Technician Bootcamp and demonstrates the application of core Python programming concepts to solve problems, perform calculations, and create interactive user experiences. The project focuses on building logical program flow through decision-making, repetition, and user input handling.
+
+This repository contains my Python projects and practical exercises completed as part of my **Data Technician Bootcamp**.
+
+The projects demonstrate my developing ability to use Python to solve problems, work with different types of data, create interactive programs and build logical solutions.
+
+My focus is on developing Python skills that can be applied to **data analysis, automation and problem-solving**.
+
+---
 
 ## Skills Demonstrated
 
-### Variables
-Used variables to store and manage data such as user inputs, numbers, balances, and calculated values throughout the program.
+* Variables
+* Data types
+* User input and output
+* `int()` and `float()`
+* `if`, `elif` and `else`
+* `for` loops
+* `while` loops
+* Arithmetic calculations
+* Input validation
+* Problem solving
+* Interactive programs
+* Basic automation
 
-In simple terms, a variable is just a named place to store information. Such as - <img width="192" height="35" alt="image" src="https://github.com/user-attachments/assets/866e3638-80a2-40d0-93da-1ea6cba15510" />
+---
 
+# Project 1 — Python Fundamentals
 
-### Input and Output
-Utilised the `input()` function to collect information from users and the `print()` function to display prompts, results, and feedback, creating an interactive command-line experience.
+## Overview
 
+This project focuses on the fundamental concepts of Python programming.
 
+It includes exercises involving calculations, user input, decision-making, repetition and interactive programs.
 
-### Type Casting
-Applied type casting techniques such as `int()` and `float()` to convert user input into appropriate data types, enabling mathematical calculations and logical comparisons.
+### Key Areas Covered
 
-int() is used in order to store whole numbers, whilst float() is used to store decimal numbers. Example below -
+#### Variables
 
-<img width="178" height="99" alt="image" src="https://github.com/user-attachments/assets/db323d3e-9fc6-421e-ae3d-ea8b4a2cabd8" />
+Variables are used to store information that can be used throughout a program.
 
+```python
+age = 15
+print(age)
+```
 
+**Result:**
 
-### Conditional Statements
-Implemented `if`, `elif`, and `else` statements to control program flow, validate user choices, and make decisions based on different conditions and scenarios.
+```text
+15
+```
 
-An 'if' function is used if the user is wanting the program to do something if the input is true. 
+---
 
-For example - <img width="288" height="46" alt="image" src="https://github.com/user-attachments/assets/f6a0f3f5-e63f-4551-8829-df114f97c01f" />
+#### Input and Output
 
-This would then print 'You can vote' as the function would be true.
+The `input()` function allows a program to collect information from a user, while `print()` displays information back to the user.
 
-A 'elif' function is similar but has an extra rule within it. The 'elif' function will check the to see if the first section is true, and if not it will then check the next condition/section within the function. 
+```python
+name = input("What is your name? ")
+print("Hello", name)
+```
 
-For example - 
+This creates a simple interactive program that accepts information from the user.
 
-<img width="174" height="87" alt="image" src="https://github.com/user-attachments/assets/cb8b0c60-bc1d-4c60-8179-d14dd469d6e1" />
+---
 
-This code is an example of how the elif function is used to check more than one condition. 
+#### Type Casting
 
-The 'else' function is usually included to check further inputs within the code where the 'if' statement isn't true. 
+I used `int()` and `float()` to convert values into numbers that can be used in calculations.
 
-For example - <img width="205" height="89" alt="image" src="https://github.com/user-attachments/assets/61e577ca-4866-445b-8156-e1b212335eda" />
+```python
+age = int(input("Enter your age: "))
+height = float(input("Enter your height: "))
 
-This would then output 'Not an Adult' if the first statement wasn't true. 
+print(age)
+print(height)
+```
 
+* `int()` → whole numbers
+* `float()` → decimal numbers
 
+---
 
+# Conditional Statements
 
-<img width="264" height="81" alt="image" src="https://github.com/user-attachments/assets/b2bd6dc7-ce5c-4458-bf29-ab3eadb2745c" />
-<img width="189" height="117" alt="image" src="https://github.com/user-attachments/assets/a770afbb-f5a9-45b1-940c-9b5b7f21b5a3" />
-<img width="239" height="129" alt="image" src="https://github.com/user-attachments/assets/faf076f4-69d7-4f3f-800a-62da9a52bcf1" />
+I used `if`, `elif` and `else` to make programs respond differently depending on the information provided.
 
+### `if`
 
+```python
+age = 18
 
+if age >= 18:
+    print("You are an adult")
+```
 
-### Loops
-Used both `for` and `while` loops to automate repetitive tasks, iterate through sequences of data, and keep programs running until specific conditions were met.
+**Purpose:** Runs the code when the condition is true.
 
-The 'for' loop is simply used to repeat something multiple times. Example below - 
+### `elif`
 
-<img width="430" height="54" alt="image" src="https://github.com/user-attachments/assets/bc2477ff-af0f-4663-bb52-6a0e4d939654" />
+```python
+age = 15
 
-                                                                                                                     
-The 'while' loop is used to repeat something as long as the condition is true.  Example below - 
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("Teenager")
+```
 
-<img width="146" height="106" alt="image" src="https://github.com/user-attachments/assets/b97821fe-c36d-459a-95ea-60f194b722bd" />
+**Purpose:** Checks another condition if the first condition is not true.
 
+### `else`
 
+```python
+age = 10
 
+if age >= 18:
+    print("Adult")
+else:
+    print("Not an adult")
+```
 
-The 'int(input' function is used so that Python can be given a number that can be stored and worked with as a whole number. 
+**Purpose:** Runs when the `if` condition is not true.
 
-Without the 'int' section of the code the function is simply looked at as a code, instead of being used as a number to calculate with. Examples below - 
+---
 
-<img width="401" height="76" alt="image" src="https://github.com/user-attachments/assets/4678cadf-d92e-4a0c-87ef-3372b8b8ea03" />
-<img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
+# Loops
 
-## Key Features
+I used loops to repeat tasks and work through a sequence of values.
 
-- Performed arithmetic calculations using user-provided data.
-- Validated and processed user input.
-- Created interactive menu-driven applications.
-- Developed logical solutions using conditional statements.
-- Automated tasks with iteration and looping structures.
-- Practised problem-solving through exercises such as number checking, calculations, FizzBuzz, and ATM-style simulations.
+### `for` Loop
 
-## Learning Outcomes
+```python
+for i in range(5):
+    print(i)
+```
 
-Through this project, I strengthened my understanding of Python fundamentals and gained practical experience in:
+**Result:**
 
-- Building program logic using conditions and loops.
-- Creating user-friendly command-line applications.
-- Handling different data types and conversions.
-- Writing structured, readable, and maintainable Python code.
-- Solving real-world problems using programming techniques.
+```text
+0
+1
+2
+3
+4
+```
 
-This project represents an important step in developing foundational programming skills and demonstrates readiness to apply Python for data, automation, and analytical tasks.
+**Purpose:** Repeats code a set number of times.
+
+---
+
+### `while` Loop
+
+```python
+x = 1
+
+while x <= 5:
+    print(x)
+    x = x + 1
+```
+
+**Result:**
+
+```text
+1
+2
+3
+4
+5
+```
+
+**Purpose:** Repeats code while a condition remains true.
+
+---
+
+# Practical Exercises
+
+The Python work in this repository includes practical exercises such as:
+
+* Number checking
+* Calculations
+* FizzBuzz
+* User input
+* Conditional logic
+* Repetition and loops
+* Menu-driven programs
+* ATM-style simulations
+
+These exercises allowed me to apply Python fundamentals to practical problems rather than only learning individual commands.
+
+---
+
+# What I Learned
+
+Through these projects I developed an understanding of how to:
+
+* Store and work with information using variables
+* Accept and process user input
+* Work with different data types
+* Make decisions using conditional statements
+* Repeat tasks using loops
+* Build simple interactive programs
+* Break problems down into logical steps
+* Use Python to automate repetitive tasks
+
+---
+
+# Example of Problem Solving
+
+One of the main skills I developed through these exercises was turning a simple problem into a series of logical steps.
+
+For example:
+
+**User input → Convert data type → Check condition → Perform action → Display result**
+
+This helped me understand how Python can be used to build programs that respond to different inputs and situations.
+
+---
+
+# Google Colab Projects
+
+The Python exercises and projects can be viewed through the following Google Colab notebooks:
+
+[Open Google Colab Notebook 1](https://colab.research.google.com/drive/1KeBgkUtZXz8Nb5Vd8lcj_rAl4iX7284e?usp=sharing)
+
+[Open Google Colab Notebook 2](https://colab.research.google.com/drive/1tCO3PEViCeHzVvJhI-CKuy7Ed_K3bntY?usp=sharing)
+
+---
+
+# Future Development
+
+I plan to continue building on these Python fundamentals by developing projects involving:
+
+* Pandas
+* Data cleaning
+* Data analysis
+* Data visualisation
+* Working with larger datasets
+* Automation
+* Real-world business problems
+
+My Python and Pandas projects will allow me to progress from basic programming exercises towards practical data analysis.
+
+---
+
+# Conclusion
+
+This repository demonstrates my developing Python skills and provides a foundation for applying Python to **data analysis, automation and problem-solving**.
+
+The projects show my progression from learning basic Python syntax to applying programming concepts to practical exercises and interactive programs.
