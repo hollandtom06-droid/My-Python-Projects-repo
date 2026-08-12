@@ -44,6 +44,7 @@ A 'elif' function is similar but has an extra rule within it. The 'elif' functio
 This code is an example of how the elif function is used to check more than one condition. 
 
 The 'else' function is usually included to check further inputs within the code where the 'if' statement isn't true. For example - <img width="205" height="89" alt="image" src="https://github.com/user-attachments/assets/61e577ca-4866-445b-8156-e1b212335eda" />
+This would then output 'Not an Adult' if the first statement wasn't true. 
 
 
 
