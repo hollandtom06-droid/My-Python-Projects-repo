@@ -55,8 +55,12 @@ The 'else' function is usually included to check further inputs within the code 
 ### Loops
 Used both `for` and `while` loops to automate repetitive tasks, iterate through sequences of data, and keep programs running until specific conditions were met.
 
-The 'for' loop is simply used to repeat something multiple times, an easy example of this would be something like - 'for i in range(5):
-                                                                                                                     print('Hello') This would then print 'Hello' 5 times. 
+The 'for' loop is simply used to repeat something multiple times. Example below - 
+
+<img width="430" height="54" alt="image" src="https://github.com/user-attachments/assets/bc2477ff-af0f-4663-bb52-6a0e4d939654" />
+
+                                                                                                                     
+The 'while' loop is used to repeat something as long as the condition is true.                                                                                                                      
 
 <img width="401" height="76" alt="image" src="https://github.com/user-attachments/assets/4678cadf-d92e-4a0c-87ef-3372b8b8ea03" />
 <img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
