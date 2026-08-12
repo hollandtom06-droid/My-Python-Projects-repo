@@ -22,6 +22,8 @@ Utilised the `input()` function to collect information from users and the `print
 ### Type Casting
 Applied type casting techniques such as `int()` and `float()` to convert user input into appropriate data types, enabling mathematical calculations and logical comparisons.
 
+int() is used in order to store whole numbers, whilst float() is used to store decimal numbers. 
+
 ### Conditional Statements
 Implemented `if`, `elif`, and `else` statements to control program flow, validate user choices, and make decisions based on different conditions and scenarios.
 
