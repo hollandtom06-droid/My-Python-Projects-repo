@@ -43,9 +43,10 @@ A 'elif' function is similar but has an extra rule within it. The 'elif' functio
            elif age >= 13: print('Teenager')
 This code is an example of how the elif function is used to check more than one condition. 
 
-The 'else' function is usually included to check further inputs within the code where the 'if' statement isn't true. For example - age = 15 
-                                                                                                                                   if age >= 18: print('Adult')
-                                                                                                                                   else: print('Not an Adult') 
+The 'else' function is usually included to check further inputs within the code where the 'if' statement isn't true. For example - <img width="205" height="89" alt="image" src="https://github.com/user-attachments/assets/61e577ca-4866-445b-8156-e1b212335eda" />
+
+
+
 
 <img width="264" height="81" alt="image" src="https://github.com/user-attachments/assets/b2bd6dc7-ce5c-4458-bf29-ab3eadb2745c" />
 <img width="189" height="117" alt="image" src="https://github.com/user-attachments/assets/a770afbb-f5a9-45b1-940c-9b5b7f21b5a3" />
