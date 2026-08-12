@@ -60,15 +60,19 @@ The 'for' loop is simply used to repeat something multiple times. Example below 
 <img width="430" height="54" alt="image" src="https://github.com/user-attachments/assets/bc2477ff-af0f-4663-bb52-6a0e4d939654" />
 
                                                                                                                      
-The 'while' loop is used to repeat something as long as the condition is true.                                                                                                                      
+The 'while' loop is used to repeat something as long as the condition is true.  Example below - 
 
-<img width="401" height="76" alt="image" src="https://github.com/user-attachments/assets/4678cadf-d92e-4a0c-87ef-3372b8b8ea03" />
-<img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
+<img width="146" height="106" alt="image" src="https://github.com/user-attachments/assets/b97821fe-c36d-459a-95ea-60f194b722bd" />
+
+
+
 
 The 'int(input' function is used so that Python can be given a number that can be stored and worked with as a whole number. 
 
-Without the 'int' section of the code the function is simply looked at as a code, instead of being used as a number to calculate with. 
+Without the 'int' section of the code the function is simply looked at as a code, instead of being used as a number to calculate with. Examples below - 
 
+<img width="401" height="76" alt="image" src="https://github.com/user-attachments/assets/4678cadf-d92e-4a0c-87ef-3372b8b8ea03" />
+<img width="500" height="93" alt="image" src="https://github.com/user-attachments/assets/c205dc3e-301b-4e80-9084-17fea472b688" />
 
 ## Key Features
 
