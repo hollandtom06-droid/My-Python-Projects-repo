@@ -39,8 +39,8 @@ Implemented `if`, `elif`, and `else` statements to control program flow, validat
 An 'if' function is used if the user is wanting the program to do something if the input is true. For example - <img width="288" height="46" alt="image" src="https://github.com/user-attachments/assets/f6a0f3f5-e63f-4551-8829-df114f97c01f" />
  this would then print 'You can vote' as the function would be true.
 
-A 'elif' function is similar but has an extra rule within it. The 'elif' function will check the to see if the first section is true, and if not it will then check the next condition/section within the function. For example - 'if age >= 18: print('Adult') 
-           elif age >= 13: print('Teenager')
+A 'elif' function is similar but has an extra rule within it. The 'elif' function will check the to see if the first section is true, and if not it will then check the next condition/section within the function. For example - <img width="174" height="87" alt="image" src="https://github.com/user-attachments/assets/cb8b0c60-bc1d-4c60-8179-d14dd469d6e1" />
+
 This code is an example of how the elif function is used to check more than one condition. 
 
 The 'else' function is usually included to check further inputs within the code where the 'if' statement isn't true. For example - <img width="205" height="89" alt="image" src="https://github.com/user-attachments/assets/61e577ca-4866-445b-8156-e1b212335eda" />
