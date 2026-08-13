@@ -1,5 +1,7 @@
 # Python Projects Portfolio
 
+Hi, I'm Tom Holland I'm currently completing a Data Technician Bootcamp, developing skills in Python, data analysis and automation. This repository documents my Python learning journey and the practical projects I've completed as part of my training. 
+
 ## Overview
 
 This repository contains my Python projects and practical exercises completed as part of my **Data Technician Bootcamp**.
